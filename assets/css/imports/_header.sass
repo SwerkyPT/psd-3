@@ -1,0 +1,31 @@
+header.header
+  @include bg()
+  background-image: url(../img/header_bg.png)
+  color: $white
+  text-transform: uppercase
+  min-height: 530px
+  text-align: center
+  position: relative
+  .overlay
+    padding: 50px 0
+  .logo
+    @include bg()
+    background-size: auto
+    height: 44px
+    margin-bottom: 50px
+    background-image: url(../img/logo.png)
+  nav
+    margin-bottom: 50px
+    text-transform: uppercase
+    li + li
+      margin-left: 30px
+  h1
+    margin: 70px 0 30px
+    font-size: 2.7em
+    font-weight: bold
+    letter-spacing: .1em
+
+  h5
+    margin-bottom: 70px
+  a
+    color: $white
